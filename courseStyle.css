@@ -1,0 +1,1423 @@
+<style>
+  
+/* FONTS */
+
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&display=swap');
+:root {
+    --regular-size: 18px;
+    font-family: 'Assistant', sans-serif;
+}
+
+#main,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+label {
+    text-align: right;
+    font-family: 'Assistant', sans-serif;
+    color: #373537;
+}
+
+a,
+li,
+span,
+.wrapper-course-material .course-tabs li a,
+.wrapper-course-material .course-tabs li a:visited,
+.rtl .course-index .accordion .course-navigation .button-chapter .group-heading {
+    font-family: 'Assistant', sans-serif;
+}
+
+/*  UNORDERED LIST */
+.textDiv ul li::before {
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background: #00b4d8;
+    right: -27px;
+    bottom: 2px;
+}
+
+/*  UNORDERED LIST */
+.textDiv ul li {
+    position: relative;
+}
+
+
+/* LINE BETWEEN COMPONENTS - KOA UPDATE */
+.course-wrapper .course-content .vert-mod .vert, .course-wrapper .courseware-results-wrapper .vert-mod .vert {
+    border-bottom: none;
+    margin-bottom: 0px;
+    padding: 0 0;
+}
+
+/* P PREFERENCES */
+
+.xmodule_display.xmodule_HtmlModule p {
+    margin-bottom: 1.416em;
+    font-size: 1.1em;
+    line-height: 1.6em !important;
+    color: #373537;
+}
+
+
+/*text color */
+
+.copy-lead a,
+.copy-large a,
+.copy-base a,
+.alert-copy a,
+.alert-copy-with-title a,
+.copy-meta a,
+.table caption a,
+.table-simplified caption a,
+.copy-micro a,
+.wrapper-footer footer#footer-openedx a,
+a,
+.link,
+.btn-link,
+.table-sortable .sortable .action-sort {
+    color: black;
+}
+
+
+/* course component - backgrounds and borders */
+
+.container>div {
+    border: none;
+}
+
+.course-index {
+    transition: all 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955) 0s;
+    border-left: none;
+}
+
+
+/* PADDING, MARGIN AND LINES BETWEEN COMPONENTS */
+
+.course-wrapper .course-content .vert-mod .vert>.xblock-student_view,
+.course-wrapper .courseware-results-wrapper .vert-mod .vert>.xblock-student_view {
+    border-bottom: none;
+    margin-bottom: 15px;
+    margin-top: 30px;
+    padding: 0 0 17px;
+}
+
+.content-wrapper .page-header {
+    border-bottom: none;
+}
+
+
+/* SHADOW UNDER VIDEO COMPONENT */
+
+.xmodule_display.xmodule_VideoModule .video {
+    background: #f5f5f5;
+    display: block;
+    margin: 31px -12px 0px;
+    padding: 13px;
+    border-radius: 0px;
+    outline: none;
+    box-shadow: 0px 0px 15px 1px rgb(0 0 0 / 12%);
+    background-color: #F7F7F7;
+}
+
+
+/*  TITLES */
+
+
+/* unit title */
+
+
+/* OLD */
+
+
+/* .h2.hd-2,
+.xblock .xblock h2 {
+    font-size: 2em !important;
+    position: relative;
+    width: fit-content;
+    font-family: 'Assistant', sans-serif;
+  
+    padding: 6px 20px 6px 20px;
+    font-weight: 700;
+    height: 60px;
+    color: #00517d;
+}
+ */
+
+
+/* NEW */
+
+.h2.hd-2,
+.xblock .xblock h2 {
+    font-size: 2.3em !important;
+    font-family: 'Assistant', sans-serif;
+    padding: 6px 20px 6px 20px;
+    font-weight: 700;
+    color: #023E8A;
+    height: 80px;
+    padding-top: 15px;
+    display: inline;
+    position: relative;
+    z-index: 1;
+}
+
+/* h2.hd.hd-2.unit-title:before {
+    position: absolute;
+    content: "";
+    width: 60%;
+    height: 100%;
+    top: 7px;
+    right: 0px;
+    z-index: -1;
+    background-color: #EAF9FC;
+}
+ */
+
+
+ h2.hd.hd-2.unit-title {
+    font-size: 1.9em !important;
+    position: relative;
+    width: fit-content;
+    font-family: 'Assistant', sans-serif;
+    padding: 0px 10px;
+    font-weight: 700 !important;
+    color: #710BDB;
+    margin-top: -47px;
+    display: inline;
+    z-index: 1;
+    background-color: #023E8A;
+    height: 10px;
+    background: white;
+}
+
+h2.hd.hd-2.unit-title:before {
+    position: absolute;
+    content: "";
+    width: 75px;
+    height: 90px;
+    top: -29px;
+    right: -11px;
+    z-index: -1;
+    background: url(https://courses.campus.gov.il/asset-v1:MoF+GOV_TenderManagement_HE+2022_1+type@asset+block@mainTitle2.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+
+/* BOOKMARK */
+
+.course-content .bookmark-button-wrapper {
+    margin-bottom: 0px;
+    margin-top: 30px;
+}
+
+span.bookmark-text {
+    color: #5706BF;
+}
+
+.course-content .bookmark-button:before {
+    content: "";
+    font-family: FontAwesome;
+    color: #5706BF;
+}
+
+
+/* MAIN TEXT HEADLINE */
+
+#seq_content > div.xblock.xblock-student_view.xblock-student_view-vertical.xblock-initialized > h2 {
+    display: none;
+}
+
+.maintextHeadline {
+    font-size: 1.9em !important;
+    position: relative;
+    width: fit-content;
+    font-family: 'Assistant', sans-serif;
+    padding: 0px 10px;
+    font-weight: 700 !important;
+    color: #710BDB;
+    margin-top: -47px;
+    display: inline;
+    z-index: 1;
+    background-color: #023E8A;
+    height: 10px;
+    background: white;
+}
+
+.maintextHeadline:before {
+    position: absolute;
+    content: "";
+    width: 75px;
+    height: 90px;
+    top: -29px;
+    right: -11px;
+    z-index: -1;
+    background: url(https://courses.campus.gov.il/asset-v1:MoF+GOV_TenderManagement_HE+2022_1+type@asset+block@mainTitle2.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+/* Quotes */
+.ethicQuote {
+    border: 5px solid #00B4D8;
+    padding: 20px;
+}
+
+.ethicQuote .ethicRulesImgDiv {
+    background-color: transparent;
+}
+
+
+
+
+
+
+/* VIDEO AND REGULAR TEXT HEADLINE */
+
+.wrapper-xblock .xblock-render .xblock .xblock-render .xblock .hd-2 {
+    color: #DB01CC;
+}
+
+h3.hd.hd-2,
+.discussion-module-title {
+    font-size: 1.8em !important;
+    position: relative;
+    width: fit-content;
+    font-family: 'Assistant', sans-serif;
+    padding: 1px 10px 6px 74px;
+    font-weight: 700 !important;
+    color: #DB01CC;
+    margin-top: -47px;
+    display: inline;
+    z-index: 1;
+    background-color: white;
+}
+
+h3.hd.hd-2::before,
+.discussion-module-title:before {
+    position: absolute;
+    content: "";
+    width: 77px;
+    height: 96px;
+    top: -20px;
+    right: -10px;
+    z-index: -1;
+    background: url(https://courses.campus.gov.il/asset-v1:MoF+GOV_TenderManagement_HE+2022_1+type@asset+block@pinkhex2.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.textHeadlineNoLine {
+    font-size: 1.8em !important;
+    position: relative;
+    width: fit-content;
+    font-family: 'Assistant', sans-serif;
+    padding: 6px 14px;
+    font-weight: 700 !important;
+    color: white;
+    margin-top: -47px;
+    display: inline;
+    z-index: 1;
+    background: linear-gradient(214deg, rgba(113,11,219,1) 50%, rgba(219,1,204,1) 100%);
+}
+
+.textHeadline {
+    font-size: 1.8em !important;
+    position: relative;
+    width: fit-content;
+    font-family: 'Assistant', sans-serif;
+    padding: 6px 14px;
+    font-weight: 700 !important;
+    color: white;
+    display: inline;
+    z-index: 1;
+    background-color: transparent;
+}
+
+.textHeadline:before {
+    position: absolute;
+    content: "";
+    width: 103%;
+    height: 60px;
+    top: -5px;
+    right: -5px;
+    z-index: -1;
+    background: url(https://courses.campus.gov.il/asset-v1:MoF+GOV_TenderManagement_HE+2022_1+type@asset+block@titlehex4.svg);
+    background-repeat: no-repeat;
+    background-size: 113%;
+    transform: rotate(180deg);
+    background-position-x: right;
+    background-position-y: 38%;
+}
+
+.xmodule_display.xmodule_VideoBlock .video{
+    margin-top: 25px; 
+}
+
+/* PROBLEMS HEADLINES */
+
+
+
+/* NEW */
+
+.hd.hd-3, .xblock--drag-and-drop .problem-title {
+    font-size: 1.8em !important;
+    position: relative;
+    width: fit-content;
+    font-family: 'Assistant', sans-serif;
+    color: #710BDB;
+    font-weight: 900 !important;
+}
+
+
+/* .hd.hd-3:before {
+    position: absolute;
+    content: "";
+    width: 101%;
+    height: 100%;
+    top: 0px;
+    left: 3px;
+    -webkit-transform: rotate( 10deg);
+    -moz-transform: rotate(10deg);
+    -o-transform: rotate(10deg);
+    -ms-transform: rotate(10deg);
+    transform: rotate( 4deg);
+    z-index: -1;
+    background-color: #00B4D8;
+    box-shadow: 0px 0px 15px 1px rgb(0 0 0 / 12%);
+} */
+
+
+/* .hd.hd-3:before {
+    position: absolute;
+    content: "";
+    width: 101%;
+    height: 100%;
+    top: -2px;
+    left: 0px;
+    transform: rotate( 2.5deg);
+    z-index: 0;
+    box-shadow: 0px 0px 15px 1px rgb(0 0 0 / 12%);
+    border: 2px solid #00B4D8;
+    border-radius: 7px;
+} */
+
+
+/* cancel the little shadow on the left */
+
+body.view-in-course .course-wrapper,
+body.view-in-course .profile-wrapper,
+body.view-in-course .instructor-dashboard-wrapper-2,
+body.view-in-course .wiki-wrapper,
+body.view-in-course .teams-wrapper,
+body.view-in-course .static_tab_wrapper {
+    box-shadow: none;
+}
+
+
+/* HTML TEXT DIV */
+
+.textDiv {
+    margin: 28px 10px 50px 10px;
+}
+
+
+/* CENTER EVERY IMG INSIDE textDiv */
+
+.textDiv img {
+    display: block;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.textDiv img.imgRight {
+    display: block;
+    margin-left: auto !important;
+}
+
+.textDiv img.imgLeft {
+    display: block;
+    margin-right: auto !important;
+}
+
+
+/* cancel the line above the content */
+
+.course-wrapper .course-content .vert-mod .vert>.xblock-student_view,
+.course-wrapper .courseware-results-wrapper .vert-mod .vert>.xblock-student_view {
+    border-bottom: none;
+    margin-bottom: 15px;
+    padding: 0 0 15px;
+}
+
+.problems-wrapper, .xblock--drag-and-drop {
+    padding: 3%;
+    position: relative;
+    z-index: 1;
+    margin: 0px -12px 0px;
+    height: fit-content;
+    display: flow-root;
+    border-right: 14px solid #710BDB;
+    margin-right: 0px;
+}
+
+.problems-wrapper .problem-progress {
+    display: none !important;
+}
+
+.xmodule_display.xmodule_CapaModule div.problem {
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+p.accordion-display-name:hover {
+    color: #023E8A;
+}
+
+.notification-show-answer {
+    display: none !important;
+}
+
+/* drag and drop */
+.xblock--drag-and-drop .keyboard-help-button, .xblock--drag-and-drop .problem-progress {
+    display: none;
+}
+
+.xblock--drag-and-drop .problem p {
+    margin-right: 1.2%;
+}
+
+
+/* problem lables design */
+
+.xmodule_display.xmodule_CapaModule div.problem .choicegroup label {
+    padding: 10px;
+    padding-right: 44px;
+    position: relative;
+    font-size: 1em;
+    line-height: normal;
+    cursor: pointer;
+    width: 100%;
+}
+
+.vert-mod .vert.vert-1:nth-child(odd) .xblock.xblock-student_view.xblock-student_view-problem.xmodule_display.xmodule_CapaModule.xblock-initialized .problems-wrapper:before {
+    position: absolute;
+    content: "";
+    /* display: block; */
+    width: 99%;
+    height: 100%;
+    top: 0px;
+    left: 3px;
+    /* box-shadow: -50px 120px 4px 10px #555; */
+    -webkit-transform: rotate( 10deg);
+    -moz-transform: rotate(10deg);
+    -o-transform: rotate(10deg);
+    -ms-transform: rotate(10deg);
+    transform: rotate( 1.9deg);
+    z-index: -1;
+    background-color: #F7F7F7;
+}
+
+.problem-group-label {
+    background-color: transparent !important;
+    border: none !important;
+}
+
+solution div {
+    border: 4px solid #00B4D8;
+    padding: 20px 0 0px 0;
+    margin-top: 4%;
+}
+
+solution div h3 {
+    background-color: #00B4D8;
+    color: white;
+    margin: -50px -66px !important;
+    display: inline-block;
+    padding: 5px 11px 2px 11px;
+    height: 42px;
+    font-size: 1.8em !important;
+    position: absolute;
+    border: 6px solid white;
+    font-weight: bold;
+}
+
+solution div p {
+    margin-right: 2.7%;
+    padding-top: 2%;
+}
+
+
+/* problems color in studio */
+
+.wrapper-xblock .xblock-render .xblock .xblock-render .xblock .hd-3 {
+    margin-bottom: 10px;
+    font-size: 1.35em;
+    font-weight: 400;
+    line-height: 1.4em;
+    color: #710BDB;
+}
+
+
+/* LABELS DESIGN */
+
+.xmodule_display.xmodule_CapaModule div.problem .choicegroup label:hover,
+.xmodule_display.xmodule_CapaModule div.problem .choicetextgroup label:hover,
+.xmodule_display.xmodule_ConditionalModule div.problem .xmodule_display.xmodule_CapaModule .choicegroup label:hover,
+.xmodule_display.xmodule_ConditionalModule div.problem .xmodule_display.xmodule_CapaModule .choicetextgroup label:hover {
+    border: 2px solid #00B4D8;
+}
+
+.xmodule_display.xmodule_CapaModule div.problem .choicegroup label {
+    background-color: #CAF0F8;
+    color: #023E8A;
+    font-weight: 600;
+}
+
+.xmodule_display.xmodule_CapaModule div.problem .choicegroup label,
+.xmodule_display.xmodule_CapaModule div.problem .choicetextgroup label,
+.xmodule_display.xmodule_ConditionalModule div.problem .xmodule_display.xmodule_CapaModule .choicegroup label,
+.xmodule_display.xmodule_ConditionalModule div.problem .xmodule_display.xmodule_CapaModule .choicetextgroup label {
+    border: 2px solid #CAF0F8;
+}
+
+
+/* DISCUSSION TOPIC */
+
+.discussion-module .inline-discussion-topic {
+    width: 100%;
+    font-size: 12px;
+    margin-top: 30px;
+}
+
+
+/* COLORS */
+
+
+/* RIGHT MENU */
+
+.fa-caret-down:before {
+    content: "\f0d7";
+    color: #DB01CC;
+    font-size: 1.4em;
+    line-height: 0.8em;
+    margin-right: -10px;
+}
+
+.fa-caret-right:before {
+    content: "\f0d9";
+    color: #DB01CC;
+    font-size: 1.4em;
+    line-height: 0.8em;
+    margin-right: -10px;
+}
+
+
+/* TOP MENU */
+
+.nav-dd .nav-item .title .icon:before {
+    margin-right: 5px;
+}
+
+.xmodule_display.xmodule_SequenceModule .sequence-nav-button.focused,
+.xmodule_display.xmodule_SequenceModule .sequence-nav-button:hover,
+.xmodule_display.xmodule_SequenceModule .sequence-nav-button:active,
+.xmodule_display.xmodule_SequenceModule .sequence-nav-button.active,
+.xmodule_display.xmodule_SequenceModule .sequence-nav button.focused,
+.xmodule_display.xmodule_SequenceModule .sequence-nav button:hover,
+.xmodule_display.xmodule_SequenceModule .sequence-nav button:active,
+.xmodule_display.xmodule_SequenceModule .sequence-nav button.active {
+    border-bottom: 3px solid #710BDB;
+    padding-top: 0px !important;
+}
+
+
+/* PROBLEMS BUTTON */
+
+.btn-brand,
+.modal .inner-wrapper form .submit input[type="submit"],
+.leanModal_box .inner-wrapper form .submit input[type="submit"] {
+    border-color: #00B4D8;
+    background: #00B4D8;
+    color: #00517d;
+}
+
+
+.scrollIndicator {
+    position: fixed !important;
+    top: 0;
+    right: 0;
+    z-index: 100 !important;
+    width: 100%;
+    background-color: #f0f0f0;
+}
+
+.progress-barscrollIndicator {
+    height: 10px;
+    background: linear-gradient(90deg, rgba(219,1,204,1) 0%, rgba(113,11,219,1) 60%, rgba(87,6,191,1) 100%);
+    width: 0%;
+}
+
+
+/* RIGHT MENU */
+
+.course-index .accordion .course-navigation .chapter-content-container .chapter-menu .menu-item a {
+    position: relative;
+    display: block;
+    padding: 9px 25px 9px 0px;
+    border-radius: 5px;
+    font-family: 'Assistant', sans-serif;
+  
+}
+
+
+body .course-index .accordion .course-navigation .chapter-content-container .chapter-menu .menu-item a {
+   
+    background-color: #ffffff00 !important;
+}
+
+
+
+span.group-heading.active {
+    background-color: #FFFFFF;
+    color: #DB01CC!important;
+    border-right: 10px solid #DB01CC;
+    font-weight: 700 !important;
+    padding: 15px 30px 15px 20px !important;
+}
+
+p.accordion-display-name {
+    color: #5706BF;
+    padding-right: 10px;
+}
+
+.btn-link,
+.proctored_exam_status .exam-timer .exam-button-turn-in-exam,
+.course-index .accordion .course-navigation .chapter-content-container .chapter-menu .menu-item a {
+    font-size: 1em;
+   
+}
+
+.course-index .accordion .course-navigation .button-chapter {
+    box-shadow: none !important;
+    background-color: white !important;
+}
+
+
+
+.course-index .accordion .course-navigation .chapter-content-container .chapter-menu .menu-item.active .accordion-nav .accordion-display-name {
+    color: #DB01CC !important;
+    font-weight: 700;
+    background-color: transparent;
+    padding-right: 40px;
+}
+
+
+.course-index .accordion .course-navigation .chapter-content-container.is-open {
+    border-bottom: none;
+    /* border-right: 1px dashed #00B4D8;
+    margin-right: 25px; */
+} 
+
+
+
+.course-index .accordion .course-navigation .chapter-content-container .chapter-menu .menu-item {
+    margin: 4px 0;
+    background: inherit;
+    /*   background-color: #f3f3f3; */
+}
+
+
+p.accordion-display-name {
+    margin: auto;
+    padding-bottom: -1px; 
+}
+
+.menu-item:before {
+    content: " ";
+    width: 42px;
+    height: 23px;
+    background-image: url(https://courses.campus.gov.il/asset-v1:MoF+GOV_TenderManagement_HE+2022_1+type@asset+block@pinkhex2.svg);
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    position: absolute;
+    background-position: 1px 1px;
+    right: 12px;
+    margin-top: 12px;
+}
+
+.menu-item.active:before {
+    content: " ";
+    background-image: url(https://courses.campus.gov.il/asset-v1:MoF+GOV_TenderManagement_HE+2022_1+type@asset+block@pinkhex1.svg);
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 12px;
+    margin-top: 10px;
+}
+
+.course-index .accordion .course-navigation .chapter-content-container .chapter-menu {
+    padding: 0 0px;
+    overflow: hidden;
+    margin-right: 0px ;
+}
+
+
+
+/*NEXT BUTTON ANIMATION*/
+
+.sequence-nav-button.button-next {
+    animation-name: pulse;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    -webkit-animation-delay: 3s;
+    -webkit-animation: pulse 4s infinite;
+    -moz-animation: pulse 3s infinite;
+    -o-animation: pulse 3s infinite;
+    animation: pulse 3s infinite;
+    background-color: #710BDB !important;
+}
+
+
+/* Safari 4.0 - 8.0 */
+
+@-webkit-keyframes pulse {
+    20% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    40% {
+        box-shadow: 0 0 0 0 rgba(118, 52, 203, 0.863);
+    }
+    70% {
+        box-shadow: 0 0 0 8px #e7ea2400;
+    }
+}
+
+
+/* Standard syntax */
+
+@keyframes pulse {
+    20% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    30% {
+        box-shadow: 0 0 0 0 rgba(118, 52, 203, 0.863);
+    }
+    70% {
+        box-shadow: 0 0 0 8px #eae72400;
+    }
+}
+
+
+/* DRAG AND DROP */
+
+.xblock--drag-and-drop {
+    width: auto;
+    max-width: 100%;
+    margin: 0;
+}
+
+.xblock--drag-and-drop .drag-container .option {
+    padding: 0px !important;
+}
+
+.xblock--drag-and-drop .drag-container .option.specified-width img {
+    width: 90%;
+}
+
+.course-wrapper .course-content .xblock,
+.course-wrapper .courseware-results-wrapper .xblock {
+    overflow-wrap: inherit;
+    word-wrap: inherit;
+    word-break: inherit;
+}
+
+.xblock--drag-and-drop .btn-brand {
+    border-color: #00B4D8;
+    background: #00B4D8;
+    color: #00517d;
+}
+
+
+/* TABLES */
+
+.xmodule_display.xmodule_HtmlModule table td,
+.xmodule_display.xmodule_HtmlModule table th {
+    margin: 20px 0;
+    padding: 9px;
+    border: 1px solid #c8c8c8;
+    font-size: 14px;
+    vertical-align: middle;
+}
+
+
+/*top navigation*/
+
+
+/* every number is the icon number */
+
+
+/* problem icon | text icon | video icon - the number refers to the li */
+
+.xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(1) button.seq_problem .icon:before,
+.xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(1) button.seq_other .icon:before,
+.xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(1) button.seq_video .icon:before {
+    color: #710BDB;
+    font-size: 150%;
+} 
+
+
+/* 1 */
+
+/* .xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(1) button.seq_problem .icon:before,
+.xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(1) button.seq_other .icon:before,
+.xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(1) button.seq_video .icon:before {
+    content: url('https://courses.campus.gov.il/asset-v1:molsa+GOV_molsa_ProfessionalEthicsforServiceProviders101_HE+2022_1+type@asset+block@menuNum1_1.svg');
+    width: 30px !important;
+    height: 25px !important;
+    display: inline-block;
+    margin-top: 4px;
+} */
+
+
+/* 2 */
+
+/* .xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(2) button.seq_problem .icon:before,
+.xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(2) button.seq_other .icon:before,
+.xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(2) button.seq_video .icon:before {
+    content: url('https://courses.campus.gov.il/asset-v1:molsa+GOV_molsa_ProfessionalEthicsforServiceProviders101_HE+2022_1+type@asset+block@menuNum2_1.svg');
+    width: 30px !important;
+    height: 25px !important;
+    display: inline-block;
+    margin-top: 4px;
+} */
+
+
+/* 3 */
+
+/* .xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(3) button.seq_problem .icon:before,
+.xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(3) button.seq_other .icon:before,
+.xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(3) button.seq_video .icon:before {
+    content: url('https://courses.campus.gov.il/asset-v1:molsa+GOV_molsa_ProfessionalEthicsforServiceProviders101_HE+2022_1+type@asset+block@menuNum3_1.svg');
+    width: 30px !important;
+    height: 25px !important;
+    display: inline-block;
+    margin-top: 4px;
+} */
+
+
+/* 4 */
+
+/* .xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(4) button.seq_problem .icon:before,
+.xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(4) button.seq_other .icon:before,
+.xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(4) button.seq_video .icon:before {
+    content: url('https://courses.campus.gov.il/asset-v1:molsa+GOV_molsa_ProfessionalEthicsforServiceProviders101_HE+2022_1+type@asset+block@menuNum4_1.svg');
+    width: 30px !important;
+    height: 25px !important;
+    display: inline-block;
+    margin-top: 4px;
+}
+ */
+
+/* 5 */
+
+/* .xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(5) button.seq_problem .icon:before,
+.xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(5) button.seq_other .icon:before,
+.xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(5) button.seq_video .icon:before {
+    content: url('https://courses.campus.gov.il/asset-v1:molsa+GOV_molsa_ProfessionalEthicsforServiceProviders101_HE+2022_1+type@asset+block@menuNum5_1.svg');
+    width: 30px !important;
+    height: 25px !important;
+    display: inline-block;
+    margin-top: 4px;
+} */
+
+
+/* 6 */
+
+/* .xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(6) button.seq_problem .icon:before,
+.xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(6) button.seq_other .icon:before,
+.xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(6) button.seq_video .icon:before {
+    content: url('https://courses.campus.gov.il/asset-v1:molsa+GOV_molsa_ProfessionalEthicsforServiceProviders101_HE+2022_1+type@asset+block@menuNum6_1.svg');
+    width: 30px !important;
+    height: 25px !important;
+    display: inline-block;
+    margin-top: 4px;
+} */
+
+
+/* 7 */
+
+/* .xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(7) button.seq_problem .icon:before,
+.xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(7) button.seq_other .icon:before,
+.xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(7) button.seq_video .icon:before {
+    content: url('https://courses.campus.gov.il/asset-v1:molsa+GOV_molsa_ProfessionalEthicsforServiceProviders101_HE+2022_1+type@asset+block@menuNum7_1.svg');
+    width: 30px !important;
+    height: 25px !important;
+    display: inline-block;
+    margin-top: 4px;
+} */
+
+
+/* 8 */
+
+/* .xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(8) button.seq_problem .icon:before,
+.xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(8) button.seq_other .icon:before,
+.xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(8) button.seq_video .icon:before {
+    content: url('https://courses.campus.gov.il/asset-v1:molsa+GOV_molsa_ProfessionalEthicsforServiceProviders101_HE+2022_1+type@asset+block@menuNum8_1.svg');
+    width: 30px !important;
+    height: 25px !important;
+    display: inline-block;
+    margin-top: 4px;
+}
+ */
+
+/* 9  */
+
+/* .xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(9) button.seq_problem .icon:before,
+.xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(9) button.seq_other .icon:before,
+.xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(9) button.seq_video .icon:before {
+    content: url('https://courses.campus.gov.il/asset-v1:molsa+GOV_molsa_ProfessionalEthicsforServiceProviders101_HE+2022_1+type@asset+block@menuNum9_1.svg');
+    width: 30px !important;
+    height: 25px !important;
+    display: inline-block;
+    margin-top: 4px;
+} */
+
+
+/* FEEDBACK */
+.xmodule_display.xmodule_ProblemBlock div.problem .indicator-container .status.incorrect .status-icon::after {
+    color: #b20610;
+    font-size: 1.2em;
+    content: "";
+}
+
+.xmodule_display.xmodule_ProblemBlock div.problem .indicator-container .status.correct .status-icon::after {
+    color: #61a408;
+    font-size: 1.2em;
+    content: "";
+    
+}
+
+/* CORRECT ANSWER */
+
+.trueAns {
+    border: 2px solid #49DA4D;
+    border-radius: 12px;
+    background-color: #62de6657;
+    width: 77%;
+    padding: 20px;
+    margin-right: 30px;
+    margin-top: 17px;
+    margin-bottom: 20px;
+}
+
+.trueAnsImg {
+    width: 13%;
+    position: relative;
+    float: right;
+    bottom: 52px;
+    margin-right: -61px;
+   
+}
+
+
+/* INCORRECT ANSWER */
+
+.falseAns {
+    border: 2px solid #FF3F3E;
+    background-color: #EAF9FC;
+    width: 77%;
+    padding: 20px;
+    margin-right: 30px;
+    margin-top: 17px;
+    margin-bottom: 20px;
+}
+
+.falseAnsImg {
+    width: 13%;
+    position: relative;
+    float: right;
+    bottom: 52px;
+    margin-right: -61px;
+   
+}
+
+.trueAns ol li,
+.falseAns ol li {
+    margin-right: 25px;
+}
+
+.trueAns p,
+.falseAns p {
+    margin-right: 30px;
+}
+
+
+/* TO DO LIST */
+
+.toDoListDiv {
+    padding: 25px 10px 10px 10px;
+    margin-bottom: 40px;
+    margin-top: -40px;
+    margin-right: -20px;
+    background: #fff;
+    border: solid #142654;
+    border-color: #142654;
+}
+
+.box2 {
+    width: 90%;
+    border-width: 3px 3px 5px 5px;
+    border-radius: 4% 95% 6% 95%/95% 4% 92% 5%;
+    transform: rotate(-2deg);
+}
+
+.toDoListDiv img {
+    float: right;
+    margin-left: 10px;
+    width: 7%;
+}
+
+.boxinner {
+    margin: 17px;
+    transform: rotate(2deg);
+    padding-bottom: 5px;
+}
+
+.boxinner hr {
+    margin: 17px 65px;
+}
+
+
+
+/* DISCUSSION */
+.discussion-module-header {
+    width: 88% !important;
+}
+
+.discussion-module-title {
+    box-shadow: none;
+    border: none;
+    line-height: 2;
+    left: 20px !important;
+    color:#DB01CC !important;
+}
+
+.inline-discussion-topic-title {
+    display: none;
+}
+
+.inline-discussion-topic {
+    font-size: 22px !important;
+    font-weight: bold;
+}
+
+.discussion-module-title::before {
+    border: none;
+}
+
+.forum-nav-refine-bar {
+    background-color: #EAF9FC;
+}
+
+
+
+/* TABLES */
+
+.textDiv th {
+    background: #00B4D8 !important;
+    color: white !important;
+    font-size: 1em;
+    border: 2px solid #FFFFFF !important;
+}
+
+.textDiv td {
+    background: #EAF9FC !important;
+    font-size: 1em;
+    border: 2px solid #FFFFFF !important;
+}
+
+
+
+/* ETHIC RULES */
+
+.ethicRules {
+    border: 3.5px solid #00B4D8;
+    padding: 20px;
+}
+
+.textHeadlineNoLine2 {
+    background-color: #CAF0F8;
+    color: #023E8A;
+    margin: -8px -70px !important;
+    display: inline-block;
+}
+
+.ethicRulesImgDiv {
+    background-color: #00B4D8;
+    border: 17px solid white;
+    width: 13%;
+    margin-top: -82px;
+    margin-right: -68px;
+    padding: 4px;
+}
+
+
+
+.ethicRulesImg {
+    width: 8%;
+    margin: 0 auto !important;
+    background-color: #00B4D8;
+    border: 15px solid white;
+    padding: 4px 3px;
+    margin-left: -18px;
+    position: relative;
+    bottom: 77px;
+    left: 57px;
+}
+
+.ethicRulesText {
+    color: #023E8A !important;
+    margin: 21px 35px 4px 20px !important;
+    font-size: 1.5em !important;
+}
+
+.exampleText {
+    background-color: #EAF9FC;
+    color: #023E8A !important;
+    margin: -15px 35px 4px 20px !important;
+    padding: 12px 12px !important;
+}
+
+h5.exampleTitle {
+    font-weight: 700 !important;
+    color: #023E8A !important;
+    font-size: 1.8em !important;
+    margin: 9px 44px -8px 28px !important;
+    display: inline-block !important;
+}
+
+
+/* DIV FOR MAKING 80PX MARGIN */
+
+.bigmarginDiv {
+    width: 100%;
+    height: 75px;
+}
+
+
+/* UNIT TOOLTIP TOP MENU */
+
+.xmodule_display.xmodule_SequenceModule .sequence-nav ol li button .sequence-tooltip {
+    /* text-align: right;
+    margin-top: 1px;
+    background: #00B4D8 !important;
+    color: #fff;
+    font-family: "Open Sans", Verdana, Geneva, sans-serif, sans-serif;
+    line-height: 1.41575em;
+    right: 0;
+    padding: 6px;
+    position: absolute;
+    top: -43px;
+    text-shadow: none;
+    white-space: pre;
+    pointer-events: none; */
+    display: none;
+}
+
+
+/* BOOKMARK ARROW */
+
+.xmodule_display.xmodule_SequenceModule .sequence-nav ol li button .sequence-tooltip::after {
+    transform: rotate(45deg);
+    left: 18px;
+    background: #00B4D8 !important;
+    content: " ";
+    display: block;
+    height: 10px;
+    right: 18px;
+    position: absolute;
+    top: 29px;
+    width: 10px;
+}
+
+
+/* AUDIO */
+
+.audioDIV {
+    margin: 16px 0px 0px 0px;
+}
+
+audio.audioPodcast {
+    color: white;
+    margin: 0 auto;
+    display: block;
+    width: 70%;
+}
+
+.textDivWithLine {
+    border: 2px dashed #00B4D8;
+    padding: 10px;
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+    margin-top: 35px !important;
+    margin: 0 auto;
+    display: block;
+}
+
+.center-link {
+    color: #3c3c3c;
+    text-align: center !important;
+    text-decoration: underline;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+
+/* QUESTIONS CHOOS COLOR CHANGE */
+
+.xmodule_display.xmodule_ProblemBlock div.problem .choicegroup input:focus+label,
+.xmodule_display.xmodule_ProblemBlock div.problem .choicetextgroup input:focus+label,
+.xmodule_display.xmodule_ConditionalModule div.problem .xmodule_display.xmodule_ProblemBlock .choicegroup input:focus+label,
+.xmodule_display.xmodule_ConditionalModule div.problem .xmodule_display.xmodule_ProblemBlock .choicetextgroup input:focus+label,
+.xmodule_display.xmodule_ProblemBlock div.problem .choicegroup input:hover+label,
+.xmodule_display.xmodule_ProblemBlock div.problem .choicetextgroup input:hover+label,
+.xmodule_display.xmodule_ConditionalModule div.problem .xmodule_display.xmodule_ProblemBlock .choicegroup input:hover+label,
+.xmodule_display.xmodule_ConditionalModule div.problem .xmodule_display.xmodule_ProblemBlock .choicetextgroup input:hover+label {
+    background-color: #EAF9FC;
+    border: 2px solid #00B4D8;
+}
+
+.xmodule_display.xmodule_ProblemBlock div.problem .choicegroup input:checked+label {
+    background-color: #EAF9FC;
+    border: 2px solid #00B4D8;
+}
+
+
+/* QUESTION LABELS PADDING */
+
+.xmodule_display.xmodule_ProblemBlock div.problem .choicegroup label {
+    padding-right: 50px;
+}
+
+
+/* QUESTION SEND, SAVE & VIEW ANSWER BUTTONS */
+
+.xmodule_display.xmodule_ProblemBlock div.problem .action {
+    min-height: 20px;
+    width: 100%;
+    display: block;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.xmodule_display.xmodule_ProblemBlock div.problem .action .problem-action-btn {
+    margin-left: 4px;
+    max-width: 110px;
+    text-decoration: none;
+    text-transform: none;
+    border: 1px solid;
+}
+
+.xmodule_display.xmodule_ProblemBlock div.problem .action .submission-feedback {
+    display: block;
+}
+
+.xmodule_display.xmodule_ProblemBlock div.problem .action .submit-attempt-container .submit {
+    margin-left: 10px;
+    display: inline-block;
+    white-space: nowrap;
+    float: none;
+}
+
+.xmodule_display.xmodule_ProblemBlock div.problem .action .problem-action-buttons-wrapper {
+    display: inline-block;
+    justify-content: flex-end;
+    width: unset;
+    padding-bottom: 20px;
+    float: left !important;
+}
+
+.xblock.xmodule_display.xmodule_ProblemBlock .problem button.btn-default:hover {
+    background: #710BDB;
+    color: #FFFFFF;
+}
+
+.xblock.xmodule_display.xmodule_ProblemBlock .problem button.btn-default {
+    border-color: #710BDB;
+    background: #FFFFFF;
+    color: #710BDB;
+}
+
+/*  PEVIOUS NEXT BUTTON */
+
+.xblock.xmodule_display.xmodule_SequenceModule .sequence-nav-button:hover {
+    color: white !important;
+    background: linear-gradient(214deg, rgba(113,11,219,1) 35%, rgba(219,1,204,1) 100%);
+    border-bottom: none;
+}
+
+.xblock.xmodule_display.xmodule_SequenceModule .sequence-nav-button {
+    color: white !important;
+    background-color:#710BDB;
+}
+
+.xblock.xmodule_display.xmodule_SequenceModule .sequence-nav-button .icon {
+    color: white;
+}
+
+button.sequence-nav-button.button-next span {
+    color: white !important;
+}
+
+span.icon.fa.fa-chevron-prev {
+    color: #00B4D8 !important;
+}
+
+
+/* BOOKMARK */
+
+.course-content .bookmark-button-wrapper {
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+
+
+.fa-chevron-next::before {
+    content: "\f053";
+    color: white;
+}
+
+.fa-chevron-prev:before {
+    content: "\f054";
+    color: white;
+}
+
+
+/* TOP MENU HIDE */
+
+/* .xmodule_display.xmodule_SequenceModule .sequence-nav{
+    display: none;
+} */
+
+
+/* UPDATES */
+.update-message .textHeadline:before {
+    right: 35px !important;
+}
+
+
+
+
+  
+  </style>
