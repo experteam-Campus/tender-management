@@ -861,6 +861,9 @@ p.accordion-display-name {
 
 /*top navigation*/
 
+body .xmodule_display.xmodule_SequenceModule .sequence-nav button.active {
+    border-color: #710BDB;
+}
 
 /* every number is the icon number */
 
