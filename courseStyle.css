@@ -1365,7 +1365,7 @@ audio.audioPodcast {
 
 .xblock.xmodule_display.xmodule_SequenceModule .sequence-nav-button:hover {
     color: white !important;
-    background: linear-gradient(214deg, rgba(113,11,219,1) 35%, rgba(219,1,204,1) 100%);
+    background: #5706BF;
     border-bottom: none;
 }
 
