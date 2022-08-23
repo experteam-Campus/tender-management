@@ -707,7 +707,7 @@ p.accordion-display-name {
 .course-index .accordion .course-navigation .button-chapter {
     box-shadow: none !important;
     background-color: white !important;
-    color: #5706BF;
+    color: #5706BF !important;
 }
 
 
