@@ -477,7 +477,7 @@ body.view-in-course .static_tab_wrapper {
 }
 
 p.accordion-display-name:hover {
-    color: #023E8A;
+    color: #710BDB;
 }
 
 .notification-show-answer {
@@ -615,7 +615,7 @@ solution div p {
     color: #DB01CC;
     font-size: 1.4em;
     line-height: 0.8em;
-    margin-right: -10px;
+    margin-right: 1px;
 }
 
 
@@ -707,6 +707,7 @@ p.accordion-display-name {
 .course-index .accordion .course-navigation .button-chapter {
     box-shadow: none !important;
     background-color: white !important;
+    color: #5706BF;
 }
 
 
