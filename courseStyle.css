@@ -58,12 +58,12 @@ span,
 }
 
 .textDiv ul li ul {
-    margin: 10px !important;
+    margin: 10px 0px !important;
 }
 
 .textDiv ul {
-    list-style: none;
-    padding-right: 25px;
+    list-style: none !important;
+    padding-right: 25px !important;
 }
 
 /*  UNORDERED LIST */
