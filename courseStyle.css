@@ -263,6 +263,42 @@ span.bookmark-text {
     background-repeat: no-repeat;
 }
 
+.WinningTip {
+    font-size: 1.9em !important;
+    position: relative;
+    width: fit-content;
+    font-family: 'Assistant', sans-serif;
+    padding: 0px 75px 4px 15px;
+    font-weight: 700 !important;
+    color: white;
+    display: inline;
+    z-index: 1;
+    height: 10px;
+    background: #710BDB;
+    margin-right: 5px !important;
+    /* border: 3.1px solid #710BDB; */
+    border-radius: 7px;
+}
+
+.WinningTip:before {
+    position: absolute;
+    content: "";
+    width: 75px;
+    height: 90px;
+    top: -21px;
+    right: -7px;
+    z-index: 1;
+    background: url(https://courses.campus.gov.il/asset-v1:MoF+GOV_TenderManagement_HE+2022_1+type@asset+block@WinningTip1.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.WWL {
+    padding: 3em 6em;
+    border-radius: 15px;
+}
+
+
 /* Quotes */
 .ethicQuote {
     border: 5px solid #00B4D8;
