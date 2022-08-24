@@ -292,7 +292,7 @@ h3.hd.hd-2,
     font-family: 'Assistant', sans-serif;
     padding: 1px 10px 6px 74px;
     font-weight: 700 !important;
-    color: #DB01CC;
+    color: #C601BC;
     margin-top: -47px;
     display: inline;
     z-index: 1;
@@ -1112,7 +1112,7 @@ body .xmodule_display.xmodule_SequenceModule .sequence-nav button.active {
     border: none;
     line-height: 2;
     left: 20px !important;
-    color:#DB01CC !important;
+    color:#C601BC !important;
 }
 
 .inline-discussion-topic-title {
