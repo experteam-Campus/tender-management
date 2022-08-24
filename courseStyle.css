@@ -58,7 +58,7 @@ span,
 }
 
 .textDiv ul li ul {
-    margin: 0.4em 0;
+    margin: 10px !important;
 }
 
 .textDiv ul {
@@ -317,7 +317,7 @@ span.bookmark-text {
 }
 
 .WWL {
-    padding: 3em 6em;
+    padding: 0.5em 4em;
     border-radius: 15px;
 }
 
