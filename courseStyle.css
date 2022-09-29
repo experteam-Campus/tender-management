@@ -1482,5 +1482,120 @@ span.icon.fa.fa-chevron-prev {
 
 
 
+
+ .text-and-icon{
+   width: calc(100% - 40px);
+  margin-right:40px;
+    border-radius: 10px;
+    background: #fff;
+    border: 4px solid #710BDB;
+    padding: 20px;
+    font-size: 1.4em;
+    position: relative;
+    padding-right: 80px;
+    box-sizing: border-box;
+ 
+ }
+  .text-and-icon::after{
+ content: '';
+       width: 77px;
+    height: 96px;
+   position:absolute;
+     top: -40px;
+    right: -40px;
+          background: url(https://courses.campus.gov.il/asset-v1:MoF+GOV_TenderManagement_HE+2022_1+type@asset+block@mainTitle2.svg);
+    
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  
+.xmodule_display.xmodule_SequenceModule .sequence-nav-button.focused,
+.xmodule_display.xmodule_SequenceModule .sequence-nav-button:hover,
+.xmodule_display.xmodule_SequenceModule .sequence-nav-button:active,
+.xmodule_display.xmodule_SequenceModule .sequence-nav-button.active,
+.xmodule_display.xmodule_SequenceModule .sequence-nav button.focused,
+.xmodule_display.xmodule_SequenceModule .sequence-nav button:hover,
+.xmodule_display.xmodule_SequenceModule .sequence-nav button:active,
+.xmodule_display.xmodule_SequenceModule .sequence-nav button.active {
+    border-bottom: 3px solid #DB01CC;
+    padding-top: 0px !important;
+
+}
+
+  
+  body .xmodule_display.xmodule_SequenceModule .sequence-nav button.active {
+    border-color: #DB01CC;
+}
+
+  
+.xblock.xmodule_display.xmodule_SequenceModule .sequence-nav-button:hover {
+    color: #142654 !IMPORTANT;
+    border-bottom: #142654 3px solid !important;
+}
+  
+ .xmodule_display.xmodule_SequenceModule .sequence-nav ol li button.seq_problem .icon:before,
+.xmodule_display.xmodule_SequenceModule .sequence-nav ol li button.seq_other .icon:before,
+.xmodule_display.xmodule_SequenceModule .sequence-nav ol li button.seq_video .icon:before {
+  font-size:2em;
+  font-weight:bold; 
+font-family: 'Assistant', sans-serif; 
+     line-height: 28px;
+  width: 22px !important;
+    height: 35px !important;
+    display: inline-block;
+    margin-top: 4px;
+}
+    
+ 
+ .xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(1) button.seq_problem .icon:before,
+.xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(1) button.seq_other .icon:before,
+.xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(1) button.seq_video .icon:before {
+    content: '1';
+  }
+  .xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(2) button.seq_problem .icon:before,
+.xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(2) button.seq_other .icon:before,
+.xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(2) button.seq_video .icon:before {
+    content: '2';
+  }
+   .xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(3) button.seq_problem .icon:before,
+.xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(3) button.seq_other .icon:before,
+.xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(3) button.seq_video .icon:before {
+    content: '3';
+  }
+   .xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(4) button.seq_problem .icon:before,
+.xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(4) button.seq_other .icon:before,
+.xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(4) button.seq_video .icon:before {
+    content: '4';
+  }
+   .xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(5) button.seq_problem .icon:before,
+.xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(5) button.seq_other .icon:before,
+.xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(5) button.seq_video .icon:before {
+    content: '5';
+  }
+  
+  .xmodule_display.xmodule_SequenceModule .sequence-nav ol li button .sequence-tooltip{
+     text-align: right;
+    margin-top: 1px;
+    background: #00B4D8 !important;
+    color: #fff;
+    font-family: "Open Sans", Verdana, Geneva, sans-serif, sans-serif;
+    line-height: 1.41575em;
+    right: 0;
+    padding: 6px;
+    position: absolute;
+    top: -43px;
+    text-shadow: none;
+    white-space: pre;
+    pointer-events: none; 
+    display:block;
+    
+  }
+  
+
+
+
+
+
+
   
   </style>
