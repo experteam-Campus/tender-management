@@ -394,12 +394,19 @@ h3.hd.hd-2::before,
     padding: 6px 14px;
     font-weight: 700 !important;
     color: white;
-    display: inline;
+    display: block;
+    max-width:100%;
     z-index: 1;
     background-color: transparent;
+    background: url(https://courses.campus.gov.il/asset-v1:MoF+GOV_TenderManagement_HE+2022_1+type@asset+block@titlehex4.svg);
+    background-repeat: no-repeat;
+    background-size: 113%;
+    background-position-x: right;
+    background-position-y: 38%;
+  
 }
 
-.textHeadline:before {
+/*.textHeadline:before {
     position: absolute;
     content: "";
     width: 103%;
@@ -413,7 +420,7 @@ h3.hd.hd-2::before,
     transform: rotate(180deg);
     background-position-x: right;
     background-position-y: 38%;
-}
+}*/
 
 .xmodule_display.xmodule_VideoBlock .video{
     margin-top: 25px; 
@@ -1590,12 +1597,5 @@ font-family: 'Assistant', sans-serif;
     display:block;
     
   }
-  
-
-
-
-
-
-
   
   </style>
