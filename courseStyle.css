@@ -1497,13 +1497,13 @@ span.icon.fa.fa-chevron-prev {
  
  }
   .text-and-icon::after{
- content: '';
-       width: 77px;
+    content: '';
+    width: 77px;
     height: 96px;
-   position:absolute;
-     top: -40px;
+    position:absolute;
+    top: -40px;
     right: -40px;
-          background: url(https://courses.campus.gov.il/asset-v1:MoF+GOV_TenderManagement_HE+2022_1+type@asset+block@mainTitle2.svg);
+    background: url(https://courses.campus.gov.il/asset-v1:MoF+GOV_TenderManagement_HE+2022_1+type@asset+block@i.png);
     
     background-size: contain;
     background-repeat: no-repeat;
