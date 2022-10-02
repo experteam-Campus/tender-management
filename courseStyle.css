@@ -1516,6 +1516,11 @@ span.icon.fa.fa-chevron-prev {
     background-repeat: no-repeat;
   }
   
+ .text-and-icon textDiv,  .text-and-icon WWL{
+   margin:0;
+   padding:0;
+}
+
 .xmodule_display.xmodule_SequenceModule .sequence-nav-button.focused,
 .xmodule_display.xmodule_SequenceModule .sequence-nav-button:hover,
 .xmodule_display.xmodule_SequenceModule .sequence-nav-button:active,
