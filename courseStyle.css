@@ -489,6 +489,11 @@ body.view-in-course .static_tab_wrapper {
 
 /* HTML TEXT DIV */
 
+.textDiv p {
+ 
+  text-align: justify !important;
+}
+
 .textDiv {
   margin: 28px 10px 50px 10px;
   text-align: justify !important;
