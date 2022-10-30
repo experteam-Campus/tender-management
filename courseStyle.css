@@ -1315,7 +1315,7 @@ h5.exampleTitle {
 .xmodule_display.xmodule_SequenceModule .sequence-nav ol li button .sequence-tooltip::after {
     transform: rotate(45deg);
     left: 18px;
-    background: #00B4D8 !important;
+    background: #710bdb  !important;
     content: " ";
     display: block;
     height: 10px;
@@ -1596,7 +1596,7 @@ font-family: 'Assistant', sans-serif;
   .xmodule_display.xmodule_SequenceModule .sequence-nav ol li button .sequence-tooltip{
      text-align: right;
     margin-top: 1px;
-    background: #00B4D8 !important;
+    background: #710bdb  !important;
     color: #fff;
     font-family: "Open Sans", Verdana, Geneva, sans-serif, sans-serif;
     line-height: 1.41575em;
