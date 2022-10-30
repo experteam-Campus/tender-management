@@ -1415,6 +1415,7 @@ audio.audioPodcast {
     float: none;
      background-color: #710bdb;
     color: white;
+  border:none;
 }
 
 .xmodule_display.xmodule_ProblemBlock div.problem .action .problem-action-buttons-wrapper {
