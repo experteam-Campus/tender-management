@@ -241,13 +241,13 @@ h2.hd.hd-2.unit-title:before {
 }
 
 span.bookmark-text {
-    color: #5706BF;
+    color: white;
 }
 
 .course-content .bookmark-button:before {
     content: "";
     font-family: FontAwesome;
-    color: #5706BF;
+    color: #db01cc;
 }
 
 
