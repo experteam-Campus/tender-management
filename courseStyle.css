@@ -297,7 +297,7 @@ span.bookmark-text {
     display: inline;
     z-index: 1;
     height: 10px;
-    background: #710BDB;
+   background: #db01cc;
     margin-right: 5px !important;
     /* border: 3.1px solid #710BDB; */
     border-radius: 7px;
@@ -497,6 +497,17 @@ body.view-in-course .static_tab_wrapper {
 .textDiv {
   margin: 28px 10px 50px 10px;
   text-align: justify !important;
+      width: calc(100% - 40px);
+    margin-right: 40px;
+    border-radius: 10px;
+    background: #ffffff;
+    border: 4px solid #db01cc;
+    padding: 20px;
+    font-size: 1.4em;
+    position: relative;
+    /* padding-right: 80px; */
+    box-sizing: border-box;
+    /* color: white;
 }
 
 
