@@ -514,7 +514,9 @@ body.view-in-course .static_tab_wrapper {
     box-sizing: border-box;
     margin: -18px 30px 80px;
 }
-
+.wininngDiv p{
+margin-buttom:0px !important;
+}
 /* CENTER EVERY IMG INSIDE textDiv */
 
 .textDiv img {
