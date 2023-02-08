@@ -921,7 +921,7 @@ p.accordion-display-name {
 }
 
 .xblock--drag-and-drop .drag-container .option {
-    padding: 0px !important;
+    padding: 0.3% 0.8% !important;
 }
 
 .xblock--drag-and-drop .drag-container .option.specified-width img {
