@@ -32,6 +32,16 @@ span,
     font-family: 'Assistant', sans-serif;
 }
 
+.textDiv p a {
+ color:  #710BDB !important;
+  }
+
+.textDiv p a:hover {
+ color:  #710BDB !important;
+   text-decoration: underline !important;
+  }
+
+
 /*  UNORDERED LIST */
 .textDiv ul li::before {
     width: 15px;
