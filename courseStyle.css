@@ -32,11 +32,11 @@ span,
     font-family: 'Assistant', sans-serif;
 }
 
-.textDiv p a {
+.textDiv a {
  color:  #710BDB !important;
   }
 
-.textDiv p a:hover {
+.textDiv a:hover {
  color:  #710BDB !important;
    text-decoration: underline !important;
   }
