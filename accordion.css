@@ -194,6 +194,10 @@ div.panel3.show {
     line-height: 150%;
 }
 
+.panel2 p {
+    width: 98%;
+}
+
 .acc-inner {
     width: 100%;
 }
