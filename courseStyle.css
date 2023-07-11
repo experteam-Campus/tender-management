@@ -41,6 +41,13 @@ span,
    text-decoration: underline !important;
   }
 
+/* ORDERED LIST */
+.textDiv ol>li::marker {
+    FONT-VARIANT: JIS83;
+    font-weight: 900;
+    color: #710bdb;
+    font-size: 140%;
+}
 
 /*  UNORDERED LIST */
 .textDiv ul li::before {
