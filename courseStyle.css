@@ -642,9 +642,11 @@ p.accordion-display-name:hover {
 }
 
 solution div {
-   border: 4px solid #710bdb;
+    border: 4px solid #710bdb;
     padding: 20px 0 20px 0;
     margin-top: 4%;
+    width: 94%;
+    margin-right: 3%;
 }
 
 solution div h3 {
