@@ -458,13 +458,14 @@ h3.hd.hd-2::before,
 
 /* NEW */
 
-.hd.hd-3, .xblock--drag-and-drop .problem-title {
+.hd.hd-3, .xblock--drag-and-drop .problem-title, .poll-header {
     font-size: 1.8em !important;
     position: relative;
     width: fit-content;
     font-family: 'Assistant', sans-serif;
     color: #710BDB;
     font-weight: 900 !important;
+    line-height: 2;
 }
 
 
