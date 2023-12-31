@@ -748,14 +748,14 @@ solution div p {
     margin-right: 5px;
 }
 
-.xmodule_display.xmodule_SequenceModule .sequence-nav-button.focused,
-.xmodule_display.xmodule_SequenceModule .sequence-nav-button:hover,
-.xmodule_display.xmodule_SequenceModule .sequence-nav-button:active,
-.xmodule_display.xmodule_SequenceModule .sequence-nav-button.active,
-.xmodule_display.xmodule_SequenceModule .sequence-nav button.focused,
-.xmodule_display.xmodule_SequenceModule .sequence-nav button:hover,
-.xmodule_display.xmodule_SequenceModule .sequence-nav button:active,
-.xmodule_display.xmodule_SequenceModule .sequence-nav button.active {
+.xmodule_display.xmodule_SequenceBlock .sequence-nav-button.focused,
+.xmodule_display.xmodule_SequenceBlock .sequence-nav-button:hover,
+.xmodule_display.xmodule_SequenceBlock .sequence-nav-button:active,
+.xmodule_display.xmodule_SequenceBlock .sequence-nav-button.active,
+.xmodule_display.xmodule_SequenceBlock .sequence-nav button.focused,
+.xmodule_display.xmodule_SequenceBlock .sequence-nav button:hover,
+.xmodule_display.xmodule_SequenceBlock .sequence-nav button:active,
+.xmodule_display.xmodule_SequenceBlock .sequence-nav button.active {
     border-bottom: 4px solid #db01cc;
     padding-top: 0px !important;
 }
