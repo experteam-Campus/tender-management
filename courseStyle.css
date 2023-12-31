@@ -994,9 +994,9 @@ body .xmodule_display.xmodule_SequenceModule .sequence-nav button.active {
 
 /* problem icon | text icon | video icon - the number refers to the li */
 
-.xmodule_display.xmodule_SequenceModule .sequence-nav ol li button.seq_problem .icon:before,
-.xmodule_display.xmodule_SequenceModule .sequence-nav ol li button.seq_other .icon:before,
-.xmodule_display.xmodule_SequenceModule .sequence-nav ol li button.seq_video .icon:before {
+.xmodule_display.xmodule_SequenceBlock .sequence-nav ol li button .icon:before,
+.xmodule_display.xmodule_SequenceBlock .sequence-nav ol li button .icon:before,
+.xmodule_display.xmodule_SequenceBlock .sequence-nav ol li button .icon:before {
     color: #710BDB;
     font-size: 150%;
 } 
