@@ -853,14 +853,11 @@ p.accordion-display-name {
     padding-right: 40px;
 }
 
-
 .course-index .accordion .course-navigation .chapter-content-container.is-open {
     border-bottom: none;
     /* border-right: 1px dashed #00B4D8;
     margin-right: 25px; */
 } 
-
-
 
 .course-index .accordion .course-navigation .chapter-content-container .chapter-menu .menu-item {
     margin: 4px 0;
@@ -868,6 +865,9 @@ p.accordion-display-name {
     /*   background-color: #f3f3f3; */
 }
 
+span.localized-datetime.subtitle-name {
+    display: none;
+}
 
 p.accordion-display-name {
     margin: auto;
