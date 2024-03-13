@@ -41,6 +41,26 @@ span,
    text-decoration: underline !important;
   }
 
+a.Btn {
+  
+   
+    background: linear-gradient(180deg, rgba(106, 10, 211, 1) 0%, rgba(219, 1, 204, 1) 100%);
+}
+a.Btn:hover {
+    background: rgb(106, 10, 211);
+    background: linear-gradient(180deg, rgba(106, 10, 211, 1) 0%, rgba(219, 1, 204, 1) 100%);
+    background: rgb(219, 1, 204);
+    background: linear-gradient(180deg, rgba(219, 1, 204, 1) 0%, rgba(106, 10, 211, 1) 100%);
+    color: white !important;
+
+    text-decoration: none !important;
+}
+
+
+
+
+
+
 /* ORDERED LIST */
 .textDiv ol>li::marker {
     FONT-VARIANT: JIS83;
