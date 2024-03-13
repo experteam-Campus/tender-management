@@ -43,7 +43,8 @@ span,
 
 a.Btn {
   
-   
+       padding: 10px !important;
+    color: white !important;
     background: linear-gradient(180deg, rgba(106, 10, 211, 1) 0%, rgba(219, 1, 204, 1) 100%);
 }
 a.Btn:hover {
@@ -51,6 +52,7 @@ a.Btn:hover {
     background: linear-gradient(180deg, rgba(106, 10, 211, 1) 0%, rgba(219, 1, 204, 1) 100%);
     background: rgb(219, 1, 204);
     background: linear-gradient(180deg, rgba(219, 1, 204, 1) 0%, rgba(106, 10, 211, 1) 100%);
+      padding: 10px !important;
     color: white !important;
 
     text-decoration: none !important;
