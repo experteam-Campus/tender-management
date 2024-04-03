@@ -337,15 +337,16 @@ span.bookmark-text {
 .WinningTip {
     font-size: 1.9em !important;
     position: relative;
-     width: fit-content; 
+    width: fit-content;
     font-family: 'Assistant', sans-serif;
     padding: 0px 79px 4px 24px;
     font-weight: 700 !important;
-    color: white;
+    color: #710bdb;
     display: inline;
     z-index: 1;
     height: 10px;
-    background: #db01cc;
+    background: #ffffff;
+    BORDER: 4PX SOLID #db01cc;
     border-radius: 7px;
     margin-left: 80px;
     margin-right: -20px;
@@ -388,7 +389,9 @@ span.bookmark-text {
 /* VIDEO AND REGULAR TEXT HEADLINE */
 
 .wrapper-xblock .xblock-render .xblock .xblock-render .xblock .hd-2 {
-    color: #DB01CC;
+ background: linear-gradient(214deg, rgba(113, 11, 219, 1) 50%, rgba(219, 1, 204, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 h3.hd.hd-2,
@@ -408,14 +411,14 @@ h3.hd.hd-2,
 
 h3.hd.hd-2::before,
 .discussion-module-title:before {
-    position: absolute;
+position: absolute;
     content: "";
     width: 77px;
     height: 96px;
     top: -20px;
     right: -10px;
     z-index: -1;
-    background: url(https://courses.campus.gov.il/asset-v1:MoF+GOV_TenderManagement_HE+2022_1+type@asset+block@pinkhex2.svg);
+    background: url(https://courses.campus.gov.il/asset-v1:MoF+GOV_TenderWriting_HE+2022_1+type@asset+block@Asset_23_300x.png);
     background-size: 100%;
     background-repeat: no-repeat;
 }
