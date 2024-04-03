@@ -407,6 +407,9 @@ h3.hd.hd-2,
     display: inline;
     z-index: 1;
     background-color: white;
+  background: linear-gradient(214deg, rgba(113, 11, 219, 1) 50%, rgba(219, 1, 204, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 h3.hd.hd-2::before,
