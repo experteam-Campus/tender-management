@@ -755,7 +755,7 @@ solution div p {
 
 .fa-caret-down:before {
     content: "\f0d7";
-    color: #DB01CC;
+    color: white;
     font-size: 1.4em;
     line-height: 0.8em;
     margin-right: -10px;
